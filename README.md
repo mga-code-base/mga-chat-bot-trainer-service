@@ -3,7 +3,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot)](https://spring.io/)
 [![Java Version](https://img.shields.io/badge/Java-17-007396?logo=openjdk)](https://openjdk.org/)
 [![Build Tool](https://img.shields.io/badge/Build-Apache%20Maven%203.9.x-C71A36?logo=apachemaven)](https://maven.apache.org/)
-[![AI Engine](https://img.shields.io/badge/AI%20Engine-Chat%20AI%20%2F%20LLM-008080?logo=openai)](https://spring.io/projects/spring-ai)
+[![AI Engine](https://img.shields.io/badge/AI%20Engine-Chat%20Bot%20%2F%20LLM-008080?logo=openai)](https://spring.io/projects/spring-ai)
 
 ## 📌 Service Overview
 
