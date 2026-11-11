@@ -21,5 +21,5 @@ public class ChatConstants {
 					"When you get progress report in Json format, check targetMuscle, excercise name and compare today's" + 
 					"excercise with previous records, if progressed then appreciate and if a drop is observed then encourage and motivate.";
 
-	public static final String CHAT_REQUEST_MAPPING = "/api/chat";
+	public static final String CHAT_REQUEST_MAPPING = "/api/v1/chat";
 }

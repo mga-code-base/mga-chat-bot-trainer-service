@@ -22,7 +22,7 @@ public class SecurityConfig {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(PlatformEndpoints.PUBLIC).permitAll()
-                        .requestMatchers("/api/chat", "/api/chat/**").hasRole("MEMBER")
+                        .requestMatchers("/api/v1/chat", "/api/v1/chat/**").hasRole("MEMBER")
                         .anyRequest().authenticated())
                 .oauth2ResourceServer(oauth -> oauth.jwt(jwt -> jwt.jwtAuthenticationConverter(JwtRoleConverter.create())))
                 .build();
