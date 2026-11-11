@@ -1,11 +1,12 @@
 package com.mygym.app.model;
 
-public class ChatResponse {
-    private String response;
+public record ChatResponse(String response, boolean degraded) {
 
-    public ChatResponse() {}
-    public ChatResponse(String response) { this.response = response; }
+    public static ChatResponse of(String response) {
+        return new ChatResponse(response, false);
+    }
 
-    public String getResponse() { return response; }
-    public void setResponse(String response) { this.response = response; }
+    public static ChatResponse fallback(String response) {
+        return new ChatResponse(response, true);
+    }
 }
